@@ -19,7 +19,7 @@ package com.taobao.eclipse.plugin.reviewboard.core.constant;
  */
 public class WebAPIConstant {
 
-    public static final String URI_LOGIN = "/api/users";
+    public static final String URI_LOGIN = "/api/users/";
 
     public static final String URI_USERS = "/api/users/?start={0}&max-results={1}";
 

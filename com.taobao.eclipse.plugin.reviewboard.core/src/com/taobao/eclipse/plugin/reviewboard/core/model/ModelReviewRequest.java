@@ -86,12 +86,14 @@ public class ModelReviewRequest implements ModelConverter, Serializable {
             
             String timeAddedTmp = JsonUtil.getStringFromJsonObject(jsonObject, "time_added");
             if( null != timeAddedTmp && !timeAddedTmp.trim().isEmpty() ){
+            	timeAddedTmp = timeAddedTmp.replace("T", " ").replace("Z", "");
                 DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 timeAdded = dateFormat.parse( timeAddedTmp );
             }
             
             String lastUpdatedTmp = JsonUtil.getStringFromJsonObject(jsonObject, "last_updated");
             if( null != lastUpdatedTmp && !lastUpdatedTmp.trim().isEmpty() ){
+            	lastUpdatedTmp = lastUpdatedTmp.replace("T", " ").replace("Z", "");
                 DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 lastUpdated = dateFormat.parse( lastUpdatedTmp );
             }
