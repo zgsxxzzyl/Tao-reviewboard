@@ -39,7 +39,6 @@ import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.IWorkbenchPart;
 import org.tigris.subversion.subclipse.core.ISVNLocalResource;
 import org.tigris.subversion.subclipse.core.ISVNRemoteResource;
-import org.tigris.subversion.subclipse.core.SVNException;
 import org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot;
 import org.tigris.subversion.subclipse.ui.compare.SVNLocalCompareInput;
 import org.tigris.subversion.svnclientadapter.SVNRevision;
@@ -54,7 +53,7 @@ import com.taobao.eclipse.plugin.reviewboard.subclipse.util.RbSVNUrlUtils;
 import com.taobao.eclipse.plugin.reviewboard.subclipse.wizard.requestoperation.AbstarctRequestWizardPage;
 
 /**
- * 类说明:CommitRequestWizardPage，提交 Request 
+ * 类说明:CommitRequestWizardPage，提交 Request
  * 
  * @author 智清 
  * 创建时间：2010-11-8
@@ -164,7 +163,7 @@ public class PreCommitRequestWizardPage extends AbstarctRequestWizardPage {
                             }else{
                                 compareEditorInput = new SVNLocalCompareInput(localResource, svnRemoteResource );
                             }
-                        } catch (SVNException e) {
+                        } catch (Exception e) {
                             MessageDialog.openError(getShell(), 
                                     RbSubclipseMessages.getString("ERROR_INFORMATION_LABLE"),
                                     RbSubclipseMessages.getString("ERROR_COMPARE") + e.getMessage()); //$NON-NLS-1$
