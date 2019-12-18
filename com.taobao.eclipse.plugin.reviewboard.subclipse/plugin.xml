@@ -34,7 +34,7 @@
 	        objectClass="org.eclipse.core.resources.mapping.ResourceMapping"
 	        adaptable="true"
 			id="com.taobao.eclipse.plugin.reviewboard.additonal.PreCommit" >
-			<action
+			<!--<action
 	               label="%POST_COMMIT_LABLE"
 	               class="com.taobao.eclipse.plugin.reviewboard.subclipse.actions.PostCommitReviewBoardAction"
 	               tooltip="%POST_COMMIT_LABLE"
@@ -42,7 +42,7 @@
 	               menubarPath="additions"
 				   definitionId="com.taobao.eclipse.plugin.reviewboard.subclipse.command.PostCommitReviewBoardAction_bind"
 	               id="com.taobao.eclipse.plugin.reviewboard.subclipse.actions.additions.PostCommitReviewBoardAction">
-	         	</action>
+	         	</action>-->
 	            <action
 	               label="%PRE_COMMIT_LABLE"
 	               class="com.taobao.eclipse.plugin.reviewboard.subclipse.actions.PreCommitReviewBoardAction"
@@ -63,7 +63,7 @@
 	            adaptable="true"
 	            id="org.tigris.subversion.subclipse.ui.ResourceContributions">
 	            <!--Team 右键后的菜单-->
-	   			<action
+	   			<!--<action
 	               label="%POST_COMMIT_LABLE"
 	               class="com.taobao.eclipse.plugin.reviewboard.subclipse.actions.PostCommitReviewBoardAction"
 	               tooltip="%POST_COMMIT_LABLE"
@@ -71,7 +71,7 @@
 	               menubarPath="team.main/group1"
 				   definitionId="com.taobao.eclipse.plugin.reviewboard.subclipse.command.PostCommitReviewBoardAction"
 	               id="com.taobao.eclipse.plugin.reviewboard.subclipse.actions.PostCommitReviewBoardAction">
-	         	</action>
+	         	</action>-->
 	            <action
 	               label="%PRE_COMMIT_LABLE"
 	               class="com.taobao.eclipse.plugin.reviewboard.subclipse.actions.PreCommitReviewBoardAction"

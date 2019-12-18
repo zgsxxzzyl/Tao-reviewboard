@@ -4,7 +4,7 @@
 TITLE_INFORMATION=提示
 
 ##############################################################
-# 首选项：Tao-ReviewBoard服务器设置
+# 首选项：ReviewBoard服务器设置
 ##############################################################
 PREFERPAGE_SERVER_LABLE=ReviewBoard服务器信息配置
 PREFERPAGE_SERVER_0=Server
@@ -21,8 +21,8 @@ PREFERPAGE_ATTRIBUTE_1=Peoples
 # 首选项：功能高级设置
 ##############################################################
 CACHE_RESET_BTN=重置
-CACHE_RESET_LABLE=重置Tao-ReviewBoard服务器本地缓存（包括：Groups、People信息）
-CACHE_RESET_BTN_DES=点击此按钮即可重置Tao-ReviewBoard服务器本地缓存:
+CACHE_RESET_LABLE=重置ReviewBoard服务器本地缓存（包括：Groups、People信息）
+CACHE_RESET_BTN_DES=点击此按钮即可重置ReviewBoard服务器本地缓存:
 CACHE_RESET_ALREADY=已重置！
 
 START_VERSION_AUTO_LABLE=post-commit模式，自动获取start版本
@@ -46,7 +46,7 @@ ADV_PAGESHOW_BASEVERSION_SHOW=pre-commit方式可以设置对比的基础版本
 ##############################################################
 # plugin.properties内容
 ##############################################################
-#PREFE_SETTING_LABLE=Tao-ReviewBoard配置
+#PREFE_SETTING_LABLE=ReviewBoard配置
 #PREFE_ADV_FUNCTION_LABLE=功能高级配置
 #PREFE_ADV_PAGESHOW_LABLE=页面显示高级配置
 

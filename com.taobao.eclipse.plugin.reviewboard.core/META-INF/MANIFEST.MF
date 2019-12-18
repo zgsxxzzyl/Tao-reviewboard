@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Tao-ReviewBoard Core
+Bundle-Name: ReviewBoard Core
 Bundle-SymbolicName: com.taobao.eclipse.plugin.reviewboard.core;singleton:=true
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Bundle-Vendor: Markus Knittig,zhiqing.ht,qianya,yinshi(taobao.com)
